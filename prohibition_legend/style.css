@@ -1,0 +1,105 @@
+body {
+    background-image:
+        radial-gradient(290px 300px , rgba(123,222,217, 0.5) 20%, transparent 20%),
+        radial-gradient(800px 780px , rgba(123,222,217, 0.5) 20%, transparent 20%),
+        radial-gradient(1000px 990px , rgba(123,222,217, 0.5) 20%, transparent 20%),
+        radial-gradient(400px 380px , rgba(123,222,217, 0.5) 20%, transparent 20%),
+        radial-gradient(750px 750px , rgba(123,222,217, 0.5) 20%, transparent 20%),
+        radial-gradient(100px 100px , rgba(123,222,217, 0.5) 20%, transparent 20%);
+    background-size: 
+        1230px 1280px,
+        810px 910px,
+        1470px 990px,
+        1200px 1700px,
+        1520px 1200px,
+        1100px 1300px;
+    background-position: 
+        -300px -550px,
+        -200px 100px,
+        50px 510px,
+        -200px -550px,
+        -180px -250px,
+        130px -150px;
+}
+  .wrapper{
+    font-family: MS Sans Serif;
+    font-size: 60px;
+    /* border-width: 2px; ボーダーの幅 */
+    /* border-style: solid; ボーダーのスタイル（実線） */
+    /* border-color: #000000; */
+    text-align: center;
+    /* margin: 10px; */
+    padding: 80px;
+}
+.btn--orange {
+    color: #fff;
+    background-color: #00ebdf;
+
+    
+  }
+  
+  .btn--orange:hover {
+    color: #fff;
+    background: #009ff5;
+  }
+  
+  .btn--shadow {
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn--circle {
+    border-radius: 50%;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+  }
+
+  .btn--red {
+    color: #fff;
+    background-color: #eb000c;
+  }
+  
+  .btn--red:hover {
+    color: #fff;
+    background: #f500a3;
+  }
+  
+  .btn--shadow {
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn--circle {
+    border-radius: 50%;
+    line-height: 100px;
+    width: 250px;
+    height:250px;
+    padding: 0;
+  }
+
+  .fade-in-text {
+    
+    position: relative;
+    font-size: 24px;
+    opacity: 0; /* 初めは透明に設定 */
+    transform: translateY(100%); /* 下からスライドするために位置を下に設定 */
+    animation: fadeInFromBottom 3s forwards; /* フェードインアニメーションの設定 */
+  }
+  
+  @keyframes fadeInFromBottom {
+    to {
+      opacity: 1; /* アニメーション終了時に完全に表示 */
+      transform: translateY(0); /* アニメーション終了時の位置 */
+    }
+  }
+  
+  .fade-in-text2 {
+    opacity: 0; /* 最初は透明に設定 */
+    transition: opacity 1s ease-in-out; /* opacityプロパティを1秒かけて変化させる */
+  }
+  
+  .fade-in-text2.fade-in {
+    opacity: 1; /* 表示時に不透明に設定 */
+  }
